@@ -7,3 +7,4 @@ Introduction to Logic Programming<br>
 4 - Loops<br>
 5 - Conditionals<br>
 6 - Hash<br>
+7 - Methods<br>
