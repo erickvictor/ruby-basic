@@ -8,3 +8,4 @@ Introduction to Logic Programming<br>
 5 - Conditionals<br>
 6 - Hash<br>
 7 - Methods<br>
+8 - Best Pratices<br>
