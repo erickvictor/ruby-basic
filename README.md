@@ -6,3 +6,4 @@ Introduction to Logic Programming<br>
 3 - Array<br>
 4 - Loops<br>
 5 - Conditionals<br>
+6 - Hash<br>
