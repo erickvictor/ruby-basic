@@ -2,26 +2,35 @@ puts "Bem-vindo ao Cookbook, sua rede social de receitas"
 
 receitas = []
 
-while() do
-  puts "Digite o nome da receita: "
-  nome = gets.chomp()
+puts "[1] Cadastrar uma receita"
+puts "[2] Ver todas as receitas"
+puts "[3] Sair"
 
-  receitas << nome
+print "Escolha uma opção: "
+opcao = gets.to_i()
 
-  puts
-  puts "Receita #{nome} cadastrada com sucesso!"
-  puts
-  puts "========= Receitas cadastradas ========="
-  puts receitas
+while(opcao != 3) do
+  if(opcao == 1)
+    puts "Digite o nome da receita: "
+    nome = gets.chomp()
+    receitas << nome
+    puts
+    puts "Receita #{nome} cadastrada com sucesso!"
+    puts
+  elsif(opcao == 2)
+    puts "========= Receitas cadastradas ========="
+    puts receitas
+    puts
+  else
+    puts "Opção inválida"
+  end
 
-  # Ruby for do
-  # for receita in receitas do
-  #   puts receita
-  # end
+  puts "[1] Cadastrar uma receita"
+  puts "[2] Ver todas as receitas"
+  puts "[3] Sair"
 
-  # Ruby each do
-  # receitas.each do |receita|
-  #   puts receita
-  # end
-  puts
+  print "Escolha uma opção: "
+  opcao = gets.to_i()
 end
+
+puts 'Obrigado por usar o Cookbook, até logo'

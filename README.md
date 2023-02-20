@@ -5,3 +5,4 @@ Introduction to Logic Programming<br>
 2 - Variables<br>
 3 - Array<br>
 4 - Loops<br>
+5 - Conditionals<br>
