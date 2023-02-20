@@ -1,4 +1,5 @@
 # ruby-basic
-Introduction to Logic Programming
-1 - I/O
-2 - Variables
+
+Introduction to Logic Programming<br>
+1 - I/O<br>
+2 - Variables<br>
